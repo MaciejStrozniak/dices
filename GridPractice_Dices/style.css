@@ -83,6 +83,11 @@ main{
     height: auto;
     padding: 10px;
   }
+
+  .dice{
+    width: 60px;
+    height: 60px;
+  }
 }
 
 @media only screen and (max-width: 320px){
@@ -103,6 +108,10 @@ main{
 
   main{
     height: calc(100vh - 140px);
+  }
 
+  .dice{
+    width: 60px;
+    height: 60px;
   }
 }
