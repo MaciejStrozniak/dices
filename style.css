@@ -96,7 +96,7 @@ main{
   }
 }
 
-@media only screen and (max-width: 320px) and (min-height: 400px){
+@media only screen and (max-width: 320px) and (min-height: 1200px){
 
   header{
     width: 100vw;
@@ -124,7 +124,7 @@ main{
 
 /*----------- Landscape ----------*/
 
-@media only screen and (max-width: 768px) and (max-height: 400px){
+@media only screen and (max-width: 768px) and (max-height: 1200px){
   html, main{
     height: auto;
   }
