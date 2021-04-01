@@ -1,4 +1,8 @@
+/*----------------------- FONT ------------------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+/*-------------------- WEBSTIE STYLING -----------------------*/
 
 html{
   width: 100vw;
@@ -58,6 +62,8 @@ main{
 
 /*--------------------- MEDIA QUERIES SECTION ------------------------ */
 
+/*------- Portrait -------*/
+
 @media only screen and (max-width: 768px){
 
   header{
@@ -116,7 +122,9 @@ main{
   }
 }
 
-@media only screen (orientation: landscape)){
+/*----------- Landscape ----------*/
+
+@media only screen and (orientation: landscape)){
   html, main{
     height: auto;
     background-color: yellow;
